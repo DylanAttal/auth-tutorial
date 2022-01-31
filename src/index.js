@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
-import App from './components/App/App.js'
+import App from './components/App/App'
 import reportWebVitals from './reportWebVitals'
 import Dashboard from './components/Dashboard/Dashboard'
 import Preferences from './components/Preferences/Preferences'
