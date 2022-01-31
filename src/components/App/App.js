@@ -1,10 +1,11 @@
 import './App.css'
-import React, { useState } from 'react'
+import React from 'react'
 import { Outlet } from 'react-router-dom'
 import Login from '../Login/Login'
+import useToken from './useToken'
 
 function App() {
-  const [token, setToken] = useState()
+  const { token, setToken } = useToken()
 
   if (!token) {
     return <Login setToken={setToken} />
